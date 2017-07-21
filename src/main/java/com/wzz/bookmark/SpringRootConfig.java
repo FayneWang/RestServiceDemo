@@ -4,10 +4,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * Created by WangZezhou(301255) on 2017/7/19.
+ * Created by WangZezhou(301255) on 2017/7/20.
  */
-
 @Configuration
-@ComponentScan
-public class BookmarkConfig {
+@ComponentScan("com.wzz.bookmark")
+public class SpringRootConfig {
 }

@@ -21,6 +21,10 @@ public class Bookmark {
     @GeneratedValue
     private Long id;
 
+    public String uri;
+    
+    public String description;
+
     Bookmark(){}
 
     public Bookmark(Account account, String uri, String description) {
@@ -29,8 +33,6 @@ public class Bookmark {
         this.account = account;
     }
 
-    public String uri;
-    public String description;
 
     public Account getAccount() {
         return account;
